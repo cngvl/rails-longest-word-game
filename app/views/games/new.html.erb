@@ -1,0 +1,15 @@
+<h1>New html erb</h1>
+
+<h2> Grid: <%= @letters %> <br> </h2>
+
+<br>
+
+<%= "What is the longest word you can find?" %>
+<%# <form action="score" data-turbo="false"> %>
+<form action="score" data-turbo="false" method="POST">
+  <input type="text" name="user_input">
+  <input type="submit" value="Play!">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <%= hidden_field_tag :letters, @letters %>
+
+</form>

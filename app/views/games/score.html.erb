@@ -1,0 +1,14 @@
+<h1>Score html erb</h1>
+
+<p>The user input was: '<%= params[:user_input] %>' </p>
+
+<% if @valid && @english %>
+  <p>'well done'</p>
+<% elsif @valid && @english %>
+   <p> 'not and english word' </p>
+<% else %>
+  <p> 'not in grid' </p>
+<% end %>
+
+
+<%= link_to 'Play again!', '/new' %>
