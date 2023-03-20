@@ -8,7 +8,7 @@ The app uses a basic API to check whether the user input is an English word, and
 ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]
 ```
 
-* Deployment instructions
+* Deployment instructions <br>
 To launch a webserver and run the app locally just run 
 ```
 rails s
