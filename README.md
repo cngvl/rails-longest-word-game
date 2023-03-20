@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This is another one of the apps that I made as a part of my Le Wagon experience which helped familiarise myself with navigating the CLI and rails commands. The task was to recreate an app so that the user could play a game similar to 'Countdown', where the user is given a selection of letters and should try create the longest word using the letters given.
+The app uses a basic API to check whether the user input is an English word, and also checks if the input is made of letters from the selection provided.
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+```
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]
+```
 
 * Deployment instructions
-
-* ...
+To launch a webserver and run the app locally just run 
+```
+rails s
+```
